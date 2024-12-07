@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+<div id="header">
+    <h1><span class="white"> Portfólio Pessoal
+      <br>Contato</span></h1>
+  </div>
+
+  <div id="menu">
+    <a href="Index.html">Sobre Mim</a>
+    <a href="Formacao.html">Formação</a>
+    <a href="Portfolio.html">Portfólio</a>
+    <a href="Contato.html">Contato</a>
+    </div>
+
+    <div id="icon">
+        <br>
+        <p>
+          <center>
+         <img src="img_contato_icon.png" alt="icon" width="120" hight="220">
+        </center>
+        </p>
+      </div>
+
+      <div id="Formacao">
+        <p>
+            <h1>Contato</h1>
+            <br>
+            Nome: 
+            <input type="text" name="Nome" id="Nome"> <br>
+            <br>
+            E-mail: 
+            <input type="email" name="E-mail" id="email"> <br>
+            <br>
+            Mensagem: <br><textarea name="Mensagem" id="" rows="5" cols=60"></textarea>
+            <input type="button" value="Enviar" onclick="envia()">
+        </p>
+      </div>
+
+      <script>
+        function envia(){
+            var NomeMsg = document.getElementById("Nome").value
+            console.log('Olá, ' + NomeMsg + "! A sua mensagem foi enviada com sucesso!");
+            alert ('Olá, ' + NomeMsg + "! A sua mensagem foi enviada com sucesso!");
+        }
+
+       </script>
+  
+</body>
+  
+</html>

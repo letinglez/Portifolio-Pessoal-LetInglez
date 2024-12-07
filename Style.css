@@ -1,0 +1,72 @@
+/* Limpar Formatações */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatações Genéricas*/
+
+body{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fcfcfc;
+}
+
+/* Configuração do Cabeçalho (Header) e Menu */
+
+#header{
+    background-color: rgb(5, 72, 130);
+    padding: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header a:link, #menu a:visited{
+    color: #034a7a01;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 20px;
+}
+
+/* Ao alterar o bloco a seguir, #menu, toda a linha azul clara é atualizada*/
+
+#menu{
+    padding: 15px 20px;
+    color: #034a7a01;
+    background-color: rgb(174, 221, 247);
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center}
+
+#menu a:hover{
+    color:rgb(255, 255, 255);
+    background: #417da3;
+    text-decoration: none;
+    text-align: center;
+    padding:5px 5% 10px 5%;
+    margin: 10px;    
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+/* Configuração do Conteúdo do Site (Sobre Mim)*/
+
+#SobreMim{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: medium;
+    text-align: justify;
+    }
+
+/* Formatação dos Links */
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color:rgb(5, 72, 130)
+}
